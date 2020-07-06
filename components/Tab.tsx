@@ -163,15 +163,17 @@ export default function NavTabs() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" color="default">
         <Tabs
+          indicatorColor=""
+          textColor="primary"
           variant="fullWidth"
           value={value}
           onChange={handleChange}
           aria-label="nav tabs example"
         >
-          <Link href="/home">
-            <LinkTab label="Home" href="/home" {...a11yProps(0)} />
+          <Link href="/">
+            <LinkTab label="Home" href="/" {...a11yProps(0)} />
           </Link>
           <Link href="/works">
             <LinkTab label="Works" href="/works" {...a11yProps(1)} />

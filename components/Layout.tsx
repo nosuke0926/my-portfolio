@@ -5,7 +5,7 @@ import styles from './layout.module.css'
 
 export const siteTitle = 'のすけのポートフォリオサイト'
 
-export default function Layout({ children }) {
+export default function Layout({ children }: any) {
   return (
     <div className={styles.container}>
       <Head>
