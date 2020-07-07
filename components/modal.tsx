@@ -41,7 +41,11 @@ export default function TransitionsModal(props: any) {
       <a href="#" onClick={handleOpen}>
         <img
           src={props.src}
-          className={`${styles.appIconImage} ${utilStyles.borderAppIcon}`}
+          className={
+            props.type === 'native'
+              ? `${styles.appIconImage} ${utilStyles.borderAppIcon}`
+              : `${styles.webApplicationImage}`
+          }
           alt={props.alt}
         />
       </a>
@@ -70,7 +74,11 @@ export default function TransitionsModal(props: any) {
               </ul>
             </div>
             <p id="transition-modal-description">{props.appDescription}</p>
-            <div className={`${styles.appButtonAlign}`}>
+            <div
+              className={
+                props.type === 'native' ? `${styles.appButtonAlign}` : ''
+              }
+            >
               {props.iosUrl && (
                 <a
                   className={`${styles.iosButton}`}
@@ -85,6 +93,11 @@ export default function TransitionsModal(props: any) {
                     src="https://play.google.com/intl/ja_jp/badges/static/images/badges/ja_badge_web_generic.png"
                     className={`${styles.androidButton}`}
                   />
+                </a>
+              )}
+              {props.webUrl && (
+                <a href={props.webUrl} target="_blank">
+                  {props.webUrl}
                 </a>
               )}
             </div>
