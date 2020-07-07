@@ -165,7 +165,7 @@ export default function NavTabs() {
     <div className={classes.root}>
       <AppBar position="static" color="default">
         <Tabs
-          indicatorColor=""
+          // indicatorColor=""
           textColor="primary"
           variant="fullWidth"
           value={value}
