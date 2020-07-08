@@ -34,6 +34,7 @@ export default function FormPropsTextFields() {
   const handleOnSubmit = async (data: FormData) => {
     reset()
     try {
+      data.accessKey = process.env.access_key!
       const res = await fetch('https://api.staticforms.xyz/submit', {
         method: 'POST',
         body: JSON.stringify(data),
@@ -63,7 +64,7 @@ export default function FormPropsTextFields() {
       action="https://api.staticforms.xyz/submit"
       method="post"
     >
-      <TextField
+      {/* <TextField
         type="hidden"
         id="outlined-accessKey"
         autoComplete="current-accessKey"
@@ -73,7 +74,7 @@ export default function FormPropsTextFields() {
           required: 'キーを入力してください。',
         })}
         value={process.env.access_key}
-      />
+      /> */}
       <div>
         <TextField
           id="outlined-email"
