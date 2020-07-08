@@ -72,7 +72,7 @@ export default function FormPropsTextFields() {
         inputRef={register({
           required: 'キーを入力してください。',
         })}
-        value="edb1473b-e077-484d-a01c-8378dd1d695b"
+        value={process.env.access_key}
       />
       <div>
         <TextField
