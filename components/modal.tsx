@@ -62,7 +62,7 @@ export default function TransitionsModal(props: any) {
         }}
       >
         <Fade in={open}>
-          <div className={`${classes.paper} ${utilStyles.lightText}`}>
+          <div className={`${classes.paper}`}>
             <h2 id="transition-modal-title">{props.appTitle}</h2>
             <div>
               <p>使用技術</p>

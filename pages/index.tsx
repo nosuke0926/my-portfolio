@@ -31,7 +31,7 @@ const HomeView = (props: any) => (
           />
         </a>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.lightText}`}>
+      <section className={`${utilStyles.headingMd}`}>
         <p>
           長崎県出身
           <br />

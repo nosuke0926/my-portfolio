@@ -4,16 +4,13 @@ import { createStyles, makeStyles, Theme } from '@material-ui/core/styles'
 import { useForm } from 'react-hook-form'
 import IconLabelButtons from '../components/button'
 import utilStyles from '../styles/utils.module.css'
+import Router from 'next/router'
 
 type FormData = {
   email: string
-  content: string
+  message: string
+  accessKey: string
 }
-
-// const defaultValues = {
-//   email: '',
-//   content: '',
-// }
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -34,9 +31,27 @@ export default function FormPropsTextFields() {
   })
   const classes = useStyles()
 
-  const handleOnSubmit = (data: FormData) => {
-    console.log(data.content)
+  const handleOnSubmit = async (data: FormData) => {
     reset()
+    try {
+      const res = await fetch('https://api.staticforms.xyz/submit', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: { 'Content-Type': 'application/json' },
+      })
+
+      const json = await res.json()
+
+      if (json.success) {
+        //成功したらホームに遷移する
+        console.log('success')
+        Router.push('/')
+      } else {
+        console.log('error')
+      }
+    } catch (error) {
+      console.log('An error occurred', error)
+    }
   }
 
   return (
@@ -45,7 +60,20 @@ export default function FormPropsTextFields() {
       noValidate
       autoComplete="off"
       onSubmit={handleSubmit(handleOnSubmit)}
+      action="https://api.staticforms.xyz/submit"
+      method="post"
     >
+      <TextField
+        type="hidden"
+        id="outlined-accessKey"
+        autoComplete="current-accessKey"
+        variant="outlined"
+        name="accessKey"
+        inputRef={register({
+          required: 'キーを入力してください。',
+        })}
+        value="edb1473b-e077-484d-a01c-8378dd1d695b"
+      />
       <div>
         <TextField
           id="outlined-email"
@@ -62,17 +90,17 @@ export default function FormPropsTextFields() {
       </div>
       <div>
         <TextField
-          id="outlined-content"
+          id="outlined-message"
           label="お問い合わせ内容"
           multiline
           inputRef={register({
             required: 'お問い合わせ内容を入力してください。',
           })}
-          name="content"
+          name="message"
           rows={10}
           variant="outlined"
-          className={errors.content && 'error'}
-          helperText={errors.content && errors.content.message}
+          className={errors.message && 'error'}
+          helperText={errors.message && errors.message.message}
         />
       </div>
 

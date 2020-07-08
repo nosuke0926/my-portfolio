@@ -26,6 +26,7 @@
   height: 8rem;
   margin: auto;
   transition: transform 0.5s;
+  margin-bottom: 2rem;
 }
 .appIconImage:hover {
   transform: scale(1.2);
