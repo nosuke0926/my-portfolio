@@ -6,9 +6,19 @@ import styles from './layout.module.css'
 export const siteTitle = 'のすけのポートフォリオサイト'
 
 export default function Layout({ children }: any) {
+  const trackingId: string = process.env.ga_tracking_id!
   return (
     <div className={styles.container}>
       <Head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){ window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${trackingId}');})`,
+          }}
+        />
         <meta
           name="description"
           content="Webエンジニアとして活動している、Nagese Ryunosukeのポートフォリオサイトです。"
