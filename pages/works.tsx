@@ -13,10 +13,7 @@ const WorksView = (props: any) => (
             alt="アプリ（さぶすく）"
             description="サブスクリプションを賢く管理するアプリ"
             appTitle="さぶすく"
-            useTechnology={[
-              'Flutter',
-              'Firebase(Cloud Firestore, Cloud Functions)',
-            ]}
+            useTechnology={['Flutter', 'Firebase']}
             appDescription="サービスの無料期間終了前にプッシュ通知でお知らせします。毎月・毎年のサブスクリプションサービスにいくらお金を使っているのかもグラフで可視化します。"
             iosUrl="https://apps.apple.com/jp/app/id1506451600?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.subscriptionManagement&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
@@ -45,6 +42,18 @@ const WorksView = (props: any) => (
             useTechnology={['Flutter', 'SQLite']}
             appDescription="2020年のUIデザインのトレンドであるNeumorphismを取り入れた読書管理アプリです。楽天ブックスAPI、openBDと連携してバーコード読み取りからの書籍登録が可能です。"
             iosUrl="https://apps.apple.com/jp/app/id1516860157?mt=8"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/oshiPay.png"
+            alt="アプリ（推しPay）"
+            description="推しへの愛を管理&シェアするアプリ"
+            appTitle="推しPay"
+            useTechnology={['Flutter', 'Firebase']}
+            appDescription="「推し」にいくらお金を使っているのかを記録&SNSにシェアできるアプリです。Flutterの状態管理にはBLoCパターンを使用しています。"
+            iosUrl="https://apps.apple.com/jp/app/id1523768983?mt=8"
             type="native"
           />
         </p>
