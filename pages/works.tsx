@@ -70,6 +70,18 @@ const WorksView = (props: any) => (
             type="web"
           />
         </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/chatroooom/chatroooom.png"
+            alt="Webアプリ（ChatRoooom）"
+            description="クローズドなチャットリンクを作成できるWebアプリ"
+            appTitle="ChatRoooom"
+            useTechnology={['Vue.js', 'Nuxt.js', 'Firebase']}
+            appDescription="ChatRoooomは簡単に人数限定のチャットルームを作成できるサービスです。チャット内容は24時間後に削除されるので、プライバシーも安心です。"
+            webUrl="https://chatroooom.net/"
+            type="web"
+          />
+        </p>
       </section>
     </div>
   </Layout>
