@@ -12,7 +12,7 @@ const HomeView = (props: any) => (
   <Layout>
     <div className={styles.header}>
       <img
-        src="/images/profile.jpg"
+        src="/images/profile.png"
         className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
         alt={name}
       />

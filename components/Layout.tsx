@@ -10,7 +10,7 @@ export default function Layout({ children }: any) {
   const description: string =
     'Webエンジニアとして活動している、Nagese Ryunosukeのポートフォリオサイトです。'
   const url: string = 'https://nosuke-portfolio.web.app/'
-  const image = 'https://nosuke-portfolio.web.app/images/ogp.png'
+  const image = 'https://nosuke-portfolio.web.app/images/portfolio_ogp.png'
   return (
     <div className={styles.container}>
       <Head>
