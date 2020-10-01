@@ -55,6 +55,7 @@ const WorksView = (props: any) => (
             useTechnology={['Flutter', 'Firebase']}
             appDescription="「推し」にいくらお金を使っているのかを記録&SNSにシェアできるアプリです。Flutterの状態管理にはBLoCパターンを使用しています。"
             iosUrl="https://apps.apple.com/jp/app/id1523768983?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.oshi_pay&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
