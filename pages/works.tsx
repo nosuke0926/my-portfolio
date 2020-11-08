@@ -61,6 +61,18 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
+            src="/images/products/tubenote.png"
+            alt="アプリ（TubeNote）"
+            description="YouTubeを見ながらメモできるアプリ"
+            appTitle="TubeNote"
+            useTechnology={['Flutter', 'Firebase', 'RevenueCat']}
+            appDescription="YouTubeを見ながらメモできるアプリです。アプリ内課金にはRevenueCatを使用しました。"
+            iosUrl="https://apps.apple.com/jp/app/id1535634801?mt=8"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
