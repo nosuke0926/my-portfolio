@@ -100,6 +100,15 @@ export default function TransitionsModal(props: any) {
                   {props.webUrl}
                 </a>
               )}
+              {props.productHuntUrl && (
+                <a href={props.productHuntUrl} target="_blank">
+                  <img
+                    src={`https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=${props.productHuntPostId}&theme=light`}
+                    alt={`${props.alt} | Product Hunt`}
+                    className={`${styles.productHuntButton}`}
+                  />
+                </a>
+              )}
             </div>
           </div>
         </Fade>

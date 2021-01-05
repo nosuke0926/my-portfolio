@@ -76,8 +76,16 @@
   margin-top: 0.4rem;
 }
 
+.productHuntButton {
+  /* width: 250px;
+  height: 54px; */
+  width: 160px;
+  margin: 0.1rem;
+}
+
 .appButtonAlign {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }

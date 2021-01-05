@@ -6,6 +6,7 @@ import TransitionsModal from '../components/modal'
 const WorksView = (props: any) => (
   <Layout>
     <div className={styles.header}>
+      <p>世の中を少しだけ面白く、便利にするサービスを開発しています。</p>
       <section className={utilStyles.headingMd}>
         <p>
           <TransitionsModal
@@ -52,8 +53,8 @@ const WorksView = (props: any) => (
             alt="アプリ（推しPay）"
             description="推しへの愛を管理&シェアするアプリ"
             appTitle="推しPay"
-            useTechnology={['Flutter', 'Firebase']}
-            appDescription="「推し」にいくらお金を使っているのかを記録&SNSにシェアできるアプリです。Flutterの状態管理にはBLoCパターンを使用しています。"
+            useTechnology={['Flutter', 'Firebase', 'RevenueCat']}
+            appDescription="「推し」にいくらお金を使っているのかを記録&SNSにシェアできるアプリです。"
             iosUrl="https://apps.apple.com/jp/app/id1523768983?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.oshi_pay&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
@@ -66,8 +67,10 @@ const WorksView = (props: any) => (
             description="YouTubeを見ながらメモできるアプリ"
             appTitle="TubeNote"
             useTechnology={['Flutter', 'Firebase', 'RevenueCat']}
-            appDescription="YouTubeを見ながらメモできるアプリです。アプリ内課金にはRevenueCatを使用しました。"
+            appDescription="YouTubeを見ながらリアルタイムでメモできるアプリです。メモは動画のURLとともにSNSにシェアできます。"
             iosUrl="https://apps.apple.com/jp/app/id1535634801?mt=8"
+            productHuntUrl="https://www.producthunt.com/posts/tubenote?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tubenote"
+            productHuntPostId="279810"
             type="native"
           />
         </p>
