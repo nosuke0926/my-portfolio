@@ -67,7 +67,7 @@ const WorksView = (props: any) => (
             description="YouTubeを見ながらメモできるアプリ"
             appTitle="TubeNote"
             useTechnology={['Flutter', 'Firebase', 'RevenueCat']}
-            appDescription="YouTubeを見ながらリアルタイムでメモできるアプリです。メモは動画のURLとともにSNSにシェアできます。"
+            appDescription="YouTubeを見ながらリアルタイムでメモできるアプリです。メモは動画のURLとともにSNSにシェアできます。現在日本語・英語・韓国語に対応しています。"
             iosUrl="https://apps.apple.com/jp/app/id1535634801?mt=8"
             productHuntUrl="https://www.producthunt.com/posts/tubenote?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tubenote"
             productHuntPostId="279810"
