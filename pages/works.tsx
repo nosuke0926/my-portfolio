@@ -14,7 +14,7 @@ const WorksView = (props: any) => (
             alt="アプリ（さぶすく）"
             description="サブスクリプションを賢く管理するアプリ"
             appTitle="さぶすく"
-            useTechnology={['Flutter', 'Firebase']}
+            useTechnology={['Flutter', 'Firebase', 'RevenueCat']}
             appDescription="サービスの無料期間終了前にプッシュ通知でお知らせします。毎月・毎年のサブスクリプションサービスにいくらお金を使っているのかもグラフで可視化します。"
             iosUrl="https://apps.apple.com/jp/app/id1506451600?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.subscriptionManagement&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
