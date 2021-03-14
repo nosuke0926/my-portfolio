@@ -40,7 +40,7 @@ const WorksView = (props: any) => (
             alt="アプリ（Yomoo）"
             description="ニューモフィズムな読書管理アプリ"
             appTitle="Yomoo"
-            useTechnology={['Flutter', 'SQLite']}
+            useTechnology={['Flutter', 'SQLite', 'RevenueCat']}
             appDescription="2020年のUIデザインのトレンドであるNeumorphismを取り入れた読書管理アプリです。楽天ブックスAPI、openBDと連携してバーコード読み取りからの書籍登録が可能です。"
             iosUrl="https://apps.apple.com/jp/app/id1516860157?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.yomoo&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
