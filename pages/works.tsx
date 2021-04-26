@@ -41,7 +41,7 @@ const WorksView = (props: any) => (
             description="ニューモフィズムな読書管理アプリ"
             appTitle="Yomoo"
             useTechnology={['Flutter', 'SQLite', 'RevenueCat']}
-            appDescription="2020年のUIデザインのトレンドであるNeumorphismを取り入れた読書管理アプリです。楽天ブックスAPI、openBDと連携してバーコード読み取りからの書籍登録が可能です。"
+            appDescription="2020年~のUIデザインのトレンドであるNeumorphismを取り入れた読書管理アプリです。楽天ブックスAPI、openBDと連携してバーコード読み取りからの書籍登録が可能です。"
             iosUrl="https://apps.apple.com/jp/app/id1516860157?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.yomoo&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
@@ -67,10 +67,11 @@ const WorksView = (props: any) => (
             description="YouTubeを見ながらメモできるアプリ"
             appTitle="TubeNote"
             useTechnology={['Flutter', 'Firebase', 'RevenueCat', 'Algolia']}
-            appDescription="YouTubeを見ながらリアルタイムでメモできるアプリです。メモは動画のURLとともにSNSにシェアできます。現在日本語・英語・韓国語に対応しています。"
+            appDescription="YouTubeを見ながらリアルタイムにメモできるアプリです。メモは動画のURLとともにSNSにシェアできます。現在日本語・英語・韓国語に対応しています。"
             iosUrl="https://apps.apple.com/jp/app/id1535634801?mt=8"
             productHuntUrl="https://www.producthunt.com/posts/tubenote?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tubenote"
             productHuntPostId="279810"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.movieMemo&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
