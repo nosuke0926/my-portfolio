@@ -77,6 +77,19 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
+            src="/images/products/migru.png"
+            alt="アプリ（ミグル）"
+            description="簡単に頭痛を記録するアプリ"
+            appTitle="ミグル"
+            useTechnology={['Flutter', 'Firebase']}
+            appDescription="頭痛の記録・振り返りに特化したシンプルなアプリです。"
+            iosUrl="https://apps.apple.com/jp/app/id1564686045?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.migraine&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
