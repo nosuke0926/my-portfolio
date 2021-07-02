@@ -81,7 +81,7 @@ const WorksView = (props: any) => (
             alt="アプリ（ミグル）"
             description="簡単に頭痛を記録するアプリ"
             appTitle="ミグル"
-            useTechnology={['Flutter', 'Firebase']}
+            useTechnology={['Flutter', 'Firebase', 'RevenueCat']}
             appDescription="頭痛の記録・振り返りに特化したシンプルなアプリです。"
             iosUrl="https://apps.apple.com/jp/app/id1564686045?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.migraine&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
