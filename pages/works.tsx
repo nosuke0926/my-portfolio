@@ -90,6 +90,18 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
+            src="/images/products/mariru.png"
+            alt="アプリ（マリル）"
+            description="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリ"
+            appTitle="マリル"
+            useTechnology={['Flutter', 'Firebase']}
+            appDescription="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリです。"
+            iosUrl="https://apps.apple.com/jp/app/id1578903905?mt=8"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
