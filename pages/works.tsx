@@ -97,6 +97,7 @@ const WorksView = (props: any) => (
             useTechnology={['Flutter', 'Firebase']}
             appDescription="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリです。"
             iosUrl="https://apps.apple.com/jp/app/id1578903905?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.marry_talk&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
