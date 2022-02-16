@@ -103,6 +103,20 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
+            src="/images/products/accounts.png"
+            alt="アカウントフォルダ"
+            description="サービスのアカウントを一括管理するアプリ"
+            appTitle="アカウントフォルダ"
+            useTechnology={['Flutter', 'Hive']}
+            appDescription="サービスのアカウント・パスワードを一括管理するアプリです。データは暗号化・端末に保存されるためセキュリティも安心です。
+            "
+            iosUrl="https://apps.apple.com/jp/app/id1606877526?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.account_holder&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
