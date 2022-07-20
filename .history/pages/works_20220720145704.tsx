@@ -17,8 +17,6 @@ const WorksView = (props: any) => (
             useTechnology={['Flutter', 'Firebase', 'RevenueCat']}
             appDescription="サービスの無料期間終了前にプッシュ通知でお知らせします。毎月・毎年のサブスクリプションサービスにいくらお金を使っているのかもグラフで可視化します。"
             iosUrl="https://apps.apple.com/jp/app/id1506451600?mt=8"
-            productHuntUrl="https://www.producthunt.com/posts/subsc?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-subsc"
-            productHuntPostId="349809"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.subscriptionManagement&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
@@ -110,7 +108,8 @@ const WorksView = (props: any) => (
             description="サービスのアカウントを一括管理するアプリ"
             appTitle="アカウントフォルダ"
             useTechnology={['Flutter', 'Hive']}
-            appDescription="サービスのアカウント・パスワードを一括管理するアプリです。データは暗号化・端末に保存されるためセキュリティも安心です。"
+            appDescription="サービスのアカウント・パスワードを一括管理するアプリです。データは暗号化・端末に保存されるためセキュリティも安心です。
+            "
             iosUrl="https://apps.apple.com/jp/app/id1606877526?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.account_holder&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
@@ -118,14 +117,15 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/password_generator.png"
+            src="/images/products/accounts.png"
             alt="パスワード生成"
             description="パスワード生成アプリ"
             appTitle="パスワード生成"
             useTechnology={['Flutter']}
-            appDescription="パスワードを生成することに特化したシンプルなアプリです"
-            iosUrl="https://apps.apple.com/jp/app/id1635128935?mt=8"
-            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.password_generator&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            appDescription="パスワードを生成することに特化したシンプルなアプリです
+            "
+            iosUrl="https://apps.apple.com/jp/app/id1606877526?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.account_holder&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
