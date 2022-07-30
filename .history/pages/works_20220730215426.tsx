@@ -131,12 +131,12 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/diary.png"
+            src="/images/products/password_generator.png"
             alt="超シンプル日記"
             description="シンプルな日記アプリ"
             appTitle="超シンプル日記"
             useTechnology={['Flutter']}
-            appDescription="日記に必要な「書く」と「読む」ことに特化したシンプルなアプリです"
+            appDescription="パスワードを生成することに特化したシンプルなアプリです"
             iosUrl="https://apps.apple.com/jp/app/id1635770040?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.diary&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"

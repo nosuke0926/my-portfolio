@@ -131,7 +131,7 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/diary.png"
+            src="/images/products/password_generator.png"
             alt="超シンプル日記"
             description="シンプルな日記アプリ"
             appTitle="超シンプル日記"
