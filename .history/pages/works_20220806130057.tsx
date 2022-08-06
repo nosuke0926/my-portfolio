@@ -157,7 +157,7 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/extract_audio.png"
+            src="/images/products/pdf_converter.png"
             alt="音声抽出 - 動画をMP3に変換"
             description="動画から音声抽出するアプリ"
             appTitle="音声抽出 - 動画をMP3に変換"

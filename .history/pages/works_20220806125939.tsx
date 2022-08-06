@@ -157,14 +157,14 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/extract_audio.png"
+            src="/images/products/pdf_converter.png"
             alt="音声抽出 - 動画をMP3に変換"
             description="動画から音声抽出するアプリ"
             appTitle="音声抽出 - 動画をMP3に変換"
             useTechnology={['Flutter']}
-            appDescription="動画から音声を抽出するだけのシンプルなアプリです。ワンタップでMP3に変換・ダウンロードできます。"
-            iosUrl="https://apps.apple.com/jp/app/id1637563140?mt=8"
-            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.extract_audio&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            appDescription="画像や写真をPDFに変換することができる、シンプルなアプリです。複数の画像をまとめて選択・PDFに変換できます。"
+            iosUrl="https://apps.apple.com/jp/app/id1637249390?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.pdf_converter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
