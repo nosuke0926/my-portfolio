@@ -175,9 +175,9 @@ const WorksView = (props: any) => (
             description="画像をチェキ風に加工するアプリ"
             appTitle="Chekiy"
             useTechnology={['Flutter']}
-            appDescription="写真をチェキ風に加工できる、一番シンプルなアプリです。思い出の一枚を特別なものに。"
-            iosUrl="https://apps.apple.com/jp/app/id1638090871?mt=8"
-            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.polaroid&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            appDescription="動画から音声を抽出するだけのシンプルなアプリです。ワンタップでMP3に変換・ダウンロードできます。"
+            iosUrl="https://apps.apple.com/jp/app/id1637563140?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.extract_audio&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
