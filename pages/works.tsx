@@ -196,6 +196,19 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
+            src="/images/products/white.png"
+            alt="アプリ（白200色検定）"
+            description="200色から白を見つける激ムズゲーム"
+            appTitle="白200色検定"
+            useTechnology={['Flutter']}
+            appDescription="200色から白を見つける激ムズゲームがついに登場！あなたは200種類の白色を区別できますか？"
+            iosUrl="https://apps.apple.com/jp/app/id1641219533?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.white&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
