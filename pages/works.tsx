@@ -209,6 +209,19 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
+            src="/images/products/tokubuy.png"
+            alt="アプリ（お得比較Pro）"
+            description="買い物のお得を一瞬で計算"
+            appTitle="お得比較Pro"
+            useTechnology={['Flutter']}
+            appDescription="お買い物時の「どっちがお得なんだろう？」を解決します。金額と量を入力するだけで、どちらがお得かをすぐに計算します。"
+            iosUrl="https://apps.apple.com/jp/app/id1644566128?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.tokubuy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
