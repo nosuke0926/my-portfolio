@@ -93,11 +93,11 @@ const WorksView = (props: any) => (
         <p>
           <TransitionsModal
             src="/images/products/mariru.png"
-            alt="アプリ（マリル）"
-            description="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリ"
-            appTitle="マリル"
+            alt="アプリ（マリートーク）"
+            description="夫婦の悩みを匿名チャット"
+            appTitle="マリートーク"
             useTechnology={['Flutter', 'Firebase']}
-            appDescription="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリです。"
+            appDescription="完全匿名&女性限定で夫婦の愚痴や悩みをチャットできるアプリです。"
             iosUrl="https://apps.apple.com/jp/app/id1578903905?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.marry_talk&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
@@ -183,7 +183,7 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/chekiy.png"
+            src="/images/products/timestamp.png"
             alt="アプリ（Timestamp Camera）"
             description="時間入り写真を撮影できるアプリ"
             appTitle="Timestamp Camera"
@@ -191,6 +191,32 @@ const WorksView = (props: any) => (
             appDescription="簡単に写真に日付を入れることができるアプリです。カメラで撮影、もしくは写真フォルダから選択した画像に日付を入れられます。"
             iosUrl="https://apps.apple.com/jp/app/id1639662260?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.timestamp&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/white.png"
+            alt="アプリ（白200色検定）"
+            description="200色から白を見つける激ムズゲーム"
+            appTitle="白200色検定"
+            useTechnology={['Flutter']}
+            appDescription="200色から白を見つける激ムズゲームがついに登場！あなたは200種類の白色を区別できますか？"
+            iosUrl="https://apps.apple.com/jp/app/id1641219533?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.white&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/tokubuy.png"
+            alt="アプリ（お得比較Pro）"
+            description="買い物のお得を一瞬で計算"
+            appTitle="お得比較Pro"
+            useTechnology={['Flutter']}
+            appDescription="お買い物時の「どっちがお得なんだろう？」を解決します。金額と量を入力するだけで、どちらがお得かをすぐに計算します。"
+            iosUrl="https://apps.apple.com/jp/app/id1644566128?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.tokubuy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>

@@ -222,19 +222,6 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/just_focus.png"
-            alt="アプリ（JustFocus）"
-            description="シンプルなポモドーロアプリ"
-            appTitle="JustFocus"
-            useTechnology={['Flutter']}
-            appDescription="シンプルなポモドーロアプリです。"
-            iosUrl="https://apps.apple.com/jp/app/id1645642989?mt=8"
-            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.pomodoro&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-            type="native"
-          />
-        </p>
-        <p>
-          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
