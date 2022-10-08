@@ -92,12 +92,12 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/mariru.png"
-            alt="アプリ（マリル）"
-            description="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリ"
-            appTitle="マリル"
+            src="/images/products/marry_talk.png"
+            alt="アプリ（マリートーク）"
+            description="夫婦の悩みを匿名チャット"
+            appTitle="マリートーク"
             useTechnology={['Flutter', 'Firebase']}
-            appDescription="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリです。"
+            appDescription="完全匿名&女性限定で夫婦の愚痴や悩みをチャットできるアプリです。"
             iosUrl="https://apps.apple.com/jp/app/id1578903905?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.marry_talk&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
@@ -204,6 +204,45 @@ const WorksView = (props: any) => (
             appDescription="200色から白を見つける激ムズゲームがついに登場！あなたは200種類の白色を区別できますか？"
             iosUrl="https://apps.apple.com/jp/app/id1641219533?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.white&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/tokubuy.png"
+            alt="アプリ（お得比較Pro）"
+            description="買い物のお得を一瞬で計算"
+            appTitle="お得比較Pro"
+            useTechnology={['Flutter']}
+            appDescription="お買い物時の「どっちがお得なんだろう？」を解決します。金額と量を入力するだけで、どちらがお得かをすぐに計算します。"
+            iosUrl="https://apps.apple.com/jp/app/id1644566128?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.tokubuy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/just_focus.png"
+            alt="アプリ（JustFocus）"
+            description="シンプルなポモドーロアプリ"
+            appTitle="JustFocus"
+            useTechnology={['Flutter']}
+            appDescription="シンプルなポモドーロアプリです。"
+            iosUrl="https://apps.apple.com/jp/app/id1645642989?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.pomodoro&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/just_focus.png"
+            alt="アプリ（囲みメモ）"
+            description="SNSで目立つ投稿を作るためのアプリ"
+            appTitle="囲みメモ"
+            useTechnology={['Flutter']}
+            appDescription="SNSでよく見かける囲い文字、強調線をコピペで呼び出せるシンプルなアプリです。"
+            iosUrl="https://apps.apple.com/jp/app/id1645642989?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.pomodoro&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
