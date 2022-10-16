@@ -248,7 +248,7 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/lazy_diary.png"
+            src="/images/products/frame_maker.png"
             alt="アプリ（ずぼら日記）"
             description="ずぼらさんでも続けられる日記"
             appTitle="ずぼら日記"

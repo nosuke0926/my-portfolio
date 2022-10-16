@@ -92,12 +92,12 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/mariru.png"
-            alt="アプリ（マリル）"
-            description="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリ"
-            appTitle="マリル"
+            src="/images/products/marry_talk.png"
+            alt="アプリ（マリートーク）"
+            description="夫婦の悩みを匿名チャット"
+            appTitle="マリートーク"
             useTechnology={['Flutter', 'Firebase']}
-            appDescription="結婚・婚活のホンネや不安を匿名で質問できるQ&Aアプリです。"
+            appDescription="完全匿名&女性限定で夫婦の愚痴や悩みをチャットできるアプリです。"
             iosUrl="https://apps.apple.com/jp/app/id1578903905?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.marry_talk&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
@@ -217,6 +217,45 @@ const WorksView = (props: any) => (
             appDescription="お買い物時の「どっちがお得なんだろう？」を解決します。金額と量を入力するだけで、どちらがお得かをすぐに計算します。"
             iosUrl="https://apps.apple.com/jp/app/id1644566128?mt=8"
             androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.tokubuy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/just_focus.png"
+            alt="アプリ（JustFocus）"
+            description="シンプルなポモドーロアプリ"
+            appTitle="JustFocus"
+            useTechnology={['Flutter']}
+            appDescription="シンプルなポモドーロアプリです。"
+            iosUrl="https://apps.apple.com/jp/app/id1645642989?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.pomodoro&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/frame_maker.png"
+            alt="アプリ（囲みメモ）"
+            description="SNSで目立つ投稿を作るためのアプリ"
+            appTitle="囲みメモ"
+            useTechnology={['Flutter']}
+            appDescription="SNSでよく見かける囲い文字、強調線をコピペで呼び出せるシンプルなアプリです。"
+            iosUrl="https://apps.apple.com/jp/app/id6443634371?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.frame_maker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
+            src="/images/products/frame_maker.png"
+            alt="アプリ（ずぼら日記）"
+            description="ずぼらさんでも続けられる日記"
+            appTitle="ずぼら日記"
+            useTechnology={['Flutter']}
+            appDescription="ずぼら日記は「続ける」ことに特化した日記アプリです。どんな日記も続けられない開発者自身の悩みを元に開発されました。"
+            iosUrl="https://apps.apple.com/jp/app/id6443634371?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.frame_maker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>

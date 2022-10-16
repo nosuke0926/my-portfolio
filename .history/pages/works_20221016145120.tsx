@@ -248,14 +248,14 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
-            src="/images/products/lazy_diary.png"
+            src="/images/products/frame_maker.png"
             alt="アプリ（ずぼら日記）"
             description="ずぼらさんでも続けられる日記"
             appTitle="ずぼら日記"
             useTechnology={['Flutter']}
             appDescription="ずぼら日記は「続ける」ことに特化した日記アプリです。どんな日記も続けられない開発者自身の悩みを元に開発されました。"
             iosUrl="https://apps.apple.com/jp/app/id6443727421?mt=8"
-            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.zubora&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.frame_maker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             type="native"
           />
         </p>
