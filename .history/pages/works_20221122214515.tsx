@@ -261,6 +261,19 @@ const WorksView = (props: any) => (
         </p>
         <p>
           <TransitionsModal
+            src="/images/products/lazy_diary.png"
+            alt="アプリ（ギフトノート）"
+            description="グループで管理できるプレゼント管理アプリ"
+            appTitle="ギフトノート"
+            useTechnology={['Flutter', 'Firebase']}
+            appDescription="他の人と共有できる、シンプルなギフト管理アプリです。大切な人のプレゼントの記録をつけることができます。"
+            iosUrl="https://apps.apple.com/jp/app/id1566782698?mt=8"
+            androidUrl="https://play.google.com/store/apps/details?id=com.nosuke.present&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            type="native"
+          />
+        </p>
+        <p>
+          <TransitionsModal
             src="/images/products/music-store-reviews/cover.jpeg"
             alt="Webアプリ（MusicStore Reviews）"
             description="楽器店レビューサイト"
